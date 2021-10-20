@@ -78,9 +78,9 @@
             
             <p class="footer_company_name">TSF Bank &copy;Copyright 2021 </p>
             <p class="footer_company_name">
-            Made By : Shradha Agnibhoj</p>
+            Made By : Shruti</p>
             <p class="footer_company_name">
-             #GRIPFEB2021 Web Development & Designing Internship </p>
+             #GRIPOCT2021 Web Development & Designing Internship </p>
         </div>
         <div class="footer_center">
             <div>
