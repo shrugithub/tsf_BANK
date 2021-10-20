@@ -1,0 +1,131 @@
+footer {
+    position: relative;
+       bottom: 0;
+       height: 10%;
+       opacity: 70%;
+   }
+   .footer_distributed {
+       background-color: #292c2f;
+       box-shadow: 0 1px 1px 0 rgba(0,0,0,0.5);
+       box-sizing: border-box;
+       width: 100%;
+       text-align: center;
+       padding: 55px 50px;
+       margin-top: 200px;
+   }
+   .footer_distributed .footer_left,.footer_center,.footer_right {
+       display: inline-block;
+       vertical-align: top;
+   
+   }
+   .footer_distributed .footer_left {
+       width: 40%;
+       text-align: left;
+       top: -20%;
+   
+   }
+   .footer_distributed h3 {
+       color: #ffffff;
+       font: normal 36px 'Cookie', cursive;
+       margin: 0;
+   
+   
+   }
+   .footer_distributed h3 ,span {
+    color: #5383d3;
+   
+   
+   }
+   .footer_distributed .footer_links {
+       color: white;
+       margin: 0px 0 5px;
+       padding: 0;
+   }
+   .footer_distributed .footer_links a {
+       display: inline-block;
+       line-height: 1.8;
+       text-decoration: none;
+       color: inherit;
+   }
+   .footer_distributed .footer_company_name {
+       color: #8f9296;
+       font-size: 14px;
+       font-weight: normal;
+       margin: 0;
+   }
+   .footer_distributed .footer_center {
+       width: 30%;
+       text-align: left;
+   
+   }
+   .footer_distributed .footer_center i {
+       background-color: #33383b;
+       color: white;
+       font-size: 35px;
+       width: 38px;
+       border-radius: 50%;
+       text-align: center;
+       line-height: 42px;
+       vertical-align: middle;
+       height: 38px;
+       margin: 10px 15px;
+   
+   }
+   .footer_distributed .footer_center i .fa-envelope {
+    font-size: 9px;
+    line-height: 38px;	
+   }
+   .footer_distributed .footer_center p {
+       display: inline-block;
+       color: white;
+       vertical-align: middle;
+       margin: 0;
+   
+   }
+   .footer_distributed .footer_center p span {
+       display: block;
+       font-weight: normal;
+       font-size: 14px;
+       line-height: 2px;
+   }
+   .footer_distributed .footer_center p a {
+    color: #5383d3;
+    text-decoration: none;
+   }
+   .footer_distributed .footer_right {
+       width: 20%;
+       float: right;
+   }
+   .footer_distributed .footer_company_about {
+       line-height: 20px;
+       color: #92999f;
+       font-size: 13px;
+       text-align: left;
+       font-weight: normal;
+       margin: 0;
+   }
+   .footer_distributed .footer_company_about span {
+       color: white;
+       display: block;
+       font-size: 14px;
+       font-weight: bold;
+       margin-bottom: 20px;
+   }
+   .footer_distributed .footer_icons {
+       margin-top: 25px;
+   
+   }
+   .footer_distributed .footer_icons a {
+       display: inline-block;
+       width: 30px;
+       height: 30px;
+       cursor: pointer;
+       background-color: #33383b;
+       border-radius: 2px;
+       font-size: 20px;
+       color: white;
+       text-align: center;
+       line-height: 35px;
+       margin-right: 3px;
+       margin-bottom: 5px;
+   }
