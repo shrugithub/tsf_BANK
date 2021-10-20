@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>TSF Bank - Basic Banking System</title>
+    <meta charset="UTF-8">
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sga384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+    <style type="text/css">
+    
+     .navbar{
+        
+         padding-top: 10px;
+         padding-bottom: 10px;
+         text-align: center;
+         box-shadow: 10px 10px 10px rgb(169, 179, 241);
+        }
+
+        nav .navbar-nav .active a{
+            color: rgb(52, 27, 196);
+        }
+
+        nav .navbar-nav .active{
+            color: rgb(52, 27, 196);
+        }
+        nav .navbar-brand{
+            font-size: 35px;
+            font-weight: 900;
+            letter-spacing: 5px;
+            margin-right: 80px;
+            text-shadow: 3px 3px lightgreen;
+            padding: 0 0rem 0 1rem;
+            color: rgb(43, 139, 118);
+            text-shadow: 2px 2px rgb(43, 70, 139);
+        }
+
+        nav .parent-link{
+            font-size: 20px;
+            position: relative;
+            font-weight: 900;
+            color: rgb(54, 101, 211);
+            letter-spacing: 4px;
+            font: normal 500;
+            font-family: 'Amatic SC',cursive;
+            text-transform: uppercase;
+            margin-left: 35px;
+            margin-right: 35px;
+            text-align: center;
+        }
+
+        nav .parent-link:hover{
+            font-size: 20px;
+            font-weight: 700;
+            color: rgb(153, 44, 216);
+            letter-spacing: 4px;
+            font: normal 500;
+            text-transform: uppercase;
+            padding-left: 1.7rem;
+            padding-right: 1.7rem;
+        }
+
+        nav .navbar-toggler i{
+            color: black;
+        }
+
+        nav .navbar-brand img{
+          height: 40%;
+          width: 50%;
+          text-align: left;
+          border-radius: 50%;
+          background: radial-gradient(transparent 20%, rgb(234, 243,250) 70%);
+        }
+
+        body{
+            background-color: rgb(234, 243,250 );
+        }
+
+        #home h1{
+            font-size: 50px;
+            font-weight: 900;
+            text-transform: uppercase;
+            text-align: center;
+            letter-spacing: 10px;
+            color: rgb(37, 37, 214);
+        }
+
+        #home p{
+            color: rgb(29, 187, 235);
+            text-align: center;
+            font-family: 'Amatic SC',cursive;
+            padding-top: 30px;
+            font-size: 25px;
+        }
+        #home .col-xl-6 img{
+            height: 50%;
+        }
+        #home{
+            height: 50%;
+        }
+        
+      
+
+      
+footer {
+ position: relative;
+	bottom: 0;
+	height: 10%;
+	opacity: 70%;
+}
+.footer_distributed {
+	background-color: #292c2f;
+	box-shadow: 0 1px 1px 0 rgba(0,0,0,0.5);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: center;
+	padding: 55px 50px;
+	margin-top: 200px;
+}
+.footer_distributed .footer_left,.footer_center,.footer_right {
+	display: inline-block;
+	vertical-align: top;
+
+}
+.footer_distributed .footer_left {
+	width: 40%;
+    text-align: left;
+    top: -20%;
+
+}
+.footer_distributed h3 {
+	color: #ffffff;
+	font: normal 36px 'Cookie', cursive;
+    margin: 0;
+
+
+}
+.footer_distributed h3 ,span {
+ color: #5383d3;
+
+
+}
+.footer_distributed .footer_links {
+	color: white;
+	margin: 0px 0 5px;
+	padding: 0;
+}
+.footer_distributed .footer_links a {
+	display: inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color: inherit;
+}
+.footer_distributed .footer_company_name {
+	color: #8f9296;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+.footer_distributed .footer_center {
+	width: 30%;
+	text-align: left;
+
+}
+.footer_distributed .footer_center i {
+	background-color: #33383b;
+	color: white;
+	font-size: 35px;
+	width: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	vertical-align: middle;
+	height: 38px;
+	margin: 10px 15px;
+
+}
+.footer_distributed .footer_center i .fa-envelope {
+ font-size: 9px;
+ line-height: 38px;	
+}
+.footer_distributed .footer_center p {
+	display: inline-block;
+	color: white;
+	vertical-align: middle;
+	margin: 0;
+
+}
+.footer_distributed .footer_center p span {
+	display: block;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 2px;
+}
+.footer_distributed .footer_center p a {
+ color: #5383d3;
+ text-decoration: none;
+}
+.footer_distributed .footer_right {
+	width: 20%;
+	float: right;
+}
+.footer_distributed .footer_company_about {
+	line-height: 20px;
+	color: #92999f;
+	font-size: 13px;
+	text-align: left;
+	font-weight: normal;
+	margin: 0;
+}
+.footer_distributed .footer_company_about span {
+	color: white;
+	display: block;
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+.footer_distributed .footer_icons {
+	margin-top: 25px;
+
+}
+.footer_distributed .footer_icons a {
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	cursor: pointer;
+	background-color: #33383b;
+	border-radius: 2px;
+	font-size: 20px;
+	color: white;
+	text-align: center;
+	line-height: 35px;
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+      
+    </style>
+</head>
+<body>
+       <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand" href="#"><img class="logo" src="img/logo.png"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="navbarDropdown" aria-controls="navbarDropdown" aria-expanded="false" aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon"><i class="fas fa-bars" style="color: black;"></i></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                  <a class="nav-link parent-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link parent-link" href="http://localhost/tsfBank/index.php">Customers</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link parent-link" href="http://localhost/tsfBank/transfermoney.php">Transfer Money</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link parent-link" href="http://localhost/tsfBank/transactionhistory.php">Transaction History</a> 
+              </li>
+            </ul>
+
+        </div>
+    </nav>
+
+    <div id="home" class="container" style="margin-top: 8%;">
+        <div class="row">
+            <div id="content" class="col-xl-6">
+                <h1>Basic Banking System</h1>
+                <p>It is a simple process ,just go to transfer money and type  sender's name ,receiver's name and amount to be transferred and just by one click the money will be transferred! </p>
+
+            </div>
+            <div class="col-xl-6">
+                <img class="img-fluid" src="img/contentimg.jpg">
+            </div>
+        </div>
+    </div>
+</body>
+    <footer class="footer_distributed">
+        <div class="footer_left">
+            
+            <p class="footer_company_name">TSF Bank &copy;Copyright 2021 </p>
+            <p class="footer_company_name">
+            Made By : Shradha Agnibhoj</p>
+            <p class="footer_company_name">
+             #GRIPFEB2021 Web Development & Designing Internship </p>
+        </div>
+        <div class="footer_center">
+            <div>
+                <i class="fa fa-map-marker"></i>
+                <p><span>Singapore</span></p>
+            </div>
+            <div>
+                <i class="fa fa-phone"></i>
+                <p><span>+91-555-12487</span> </p>
+            </div>
+            <div>
+                <i class="fa fa-envelope"></i>
+                <p><a href="#">contact@tsfbank.com</a></p>
+            </div>
+            </div>
+            <div class="footer_right">
+                <p class="footer_company_about">
+                 <span>About Us</span>
+                 This is a website available for transferring money online safely.
+    
+                </p>
+                <div class="footer_icons">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter-square"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fas fa-envelope"></i></a>
+    
+                </div>
+            </div>
+    
+        </div>
+    
+    </oter>
+</html>CX
